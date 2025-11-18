@@ -1,73 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Home Page -->
-  <url>
-    <loc>https://www.aicyberops.uk/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- About Page -->
-  <url>
-    <loc>https://www.aicyberops.uk/about-us.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- What We Stand For -->
-  <url>
-    <loc>https://www.aicyberops.uk/what-we-stand-for.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services Pages -->
-  <url>
-    <loc>https://www.aicyberops.uk/services/cyber_assurance.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aicyberops.uk/services/cyber_essential.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aicyberops.uk/services/cyber_essential_plus.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aicyberops.uk/services/cyber_essential_plus_checkout.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Contact -->
-  <url>
-    <loc>https://www.aicyberops.uk/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Legal Pages -->
-  <url>
-    <loc>https://www.aicyberops.uk/privacy-policy.pdf</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.aicyberops.uk/cookies-policy.pdf</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.aicyberops.uk/index.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://aicyberops.uk/</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/index.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/about.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/contact.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber-essential.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber-essential-plus.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber-assurance.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/about-us/what-we-stand-for.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/cookies-policy.pdf</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/privacy-policy.pdf</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_essential.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_essential_plus.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_assurance.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/terms&conditions.pdf</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_essential_checkout.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_essential_plus_checkout.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://aicyberops.uk/services/cyber_assurance_checkout.html</loc>
+<lastmod>2025-11-18T10:46:36+00:00</lastmod>
+<priority>0.51</priority>
+</url>
 </urlset>
