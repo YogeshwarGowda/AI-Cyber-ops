@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://aicyberops.uk/sitemap.xml
+Sitemap: https://aicyberops.uk/sitemap.xml
 
