@@ -28,7 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0">
 
     <!-- Site Metas -->
-    <title>Cyber Essentials Plus | Cyber Security | AICyberops | IT Solutions & Services</title>
+   <title> Cyber Essentials | AI CyberOps UK | Cybersecurity, Cyber Essentials & IASME Certification Experts</title>
     <meta name="keywords" content="aicyberops,cyber ops ,Cyber Assurance UK, Cyber Essentials Certification UK, Cyber Security Certification, AI CyberOps, Cyber Consultancy UK, Cyber Assurance Level 1, Cyber Assurance Level 2, Cyber Essentials Plus">
     <meta name="description" content="The perfect government-backed scheme to help protect you and your business from cyber criminals...">
     <meta name="author" content="Sergio from AICyberops">
@@ -52,6 +52,8 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    
     <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -130,12 +132,163 @@
     .green-btn:hover {
       background: #164e97;
     }
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9rem;
-    }
-  </style>
+
+    
+/* -----------------------------------
+   FOOTER MAIN WRAPPER
+------------------------------------ */
+.site-footer {
+  background: #ffffff;
+  padding: 35px 0 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px; /* Increased gap to match screenshot */
+  padding: 0 20px;
+}
+
+/* Logo Column */
+/* Logo Column – FINAL FIX */
+footer .logo-col img {
+    width: 150px !important;  /* FIX: set specific width for logo in footer */
+    max-width: 150px !important;
+    height: auto !important;
+    display: block !important;
+}
+
+
+/* -----------------------------------
+   FOOTER HEADINGS — UPDATED
+------------------------------------ */
+.footer-col h4 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+
+  text-transform: uppercase;
+  border-bottom: 1px solid #000 !important;
+  display: inline-block !important;
+  width: 280px !important;   /* extend underline */
+}
+
+/* -----------------------------------
+   LISTS — UPDATED
+------------------------------------ */
+.footer-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 12px 0;
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400 !important;   /* FIX: remove bold */
+}
+
+.footer-col ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400 !important;   /* FIX: remove bold */
+}
+
+.footer-col a:hover {
+  color: #1e468f;
+  text-decoration: underline;
+}
+
+/* Contact Icons */
+.contact-list img {
+  width: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Fix contact list bold */
+.contact-list li,
+.contact-list li a {
+  font-weight: 400 !important;
+}
+
+/* -----------------------------------
+   FOOTER BOTTOM
+------------------------------------ */
+.footer-bottom {
+  background: #f5f5f5;
+  padding: 5px 0;
+  border-top: 1px solid #f5f5f5(0,0,0,0.1);
+}
+
+.footer-bottom-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copy {
+  font-size: 15px;
+  color: #000;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400; /* un-bold */
+}
+
+.footer-links a:hover {
+  color: #1e468f;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-col h4 {
+    width: 100%; /* Full width underline on mobile */
+  }
+  .footer-links {
+    justify-content: center;
+  }
+}
+/* Fix footer logo size */
+.site-footer .logo-col img {
+    width: 150px !important;
+    max-width: 150px !important;
+    height: auto !important;
+    display: block !important;
+}
+
+/* Fix underline width */
+.footer-col:not(.logo-col) h4 {
+    width: 280px !important;
+}
+
+
+
+</style>
+
+
 
 </head>
 
@@ -241,72 +394,73 @@
 
   
 
-
  <!-- Start Footer -->
-    <footer class="footer-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footer_blog">
-                        <div class="full margin-bottom_30">
-                            <a href="index.html"><img class="logo" src="../../img/logo/cyberops_logo.png" alt="Cyber Ops Ltd Official Logo"/></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Site Links | Footer -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footer_blog footer_menu white_fonts">
-                        <h5>About</h5>
-                            <ul> 
-                                <li><a href="../../about.html">About Cyber Ops Ltd</a></li>
-                                <li><a href="../../services.html">Our Services</a></li>
-                                <li><a href="../../about-us/what-we-stand-for.html">What We Stand For</a></li>
-				
-                            </ul>
-                    </div>
-                </div>
-                <!-- Quick Links | Footer -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footer_blog footer_menu white_fonts">
-                        <h5>Services</h5>
-                           <ul> 
-                                <li><a href="../../services/cyber-essential.html">Cyber Essentials</a></li>
-                                <li><a href="../../services/cyber-essential-plus.html">Cyber Essential Plus</a></li>
-                               <li><a href="../../services/cyber-assurance.html">IASME Cyber Assurance</a></li>
+<footer class="site-footer">
+    <div class="footer-inner">
+        
+        <!-- Logo Column -->
+        <div class="footer-col logo-col">
+            <img src="../../img/logo/cyberops_logo.png" alt="Cyber Ops Ltd Logo">
+        </div>
 
-                            </ul>
-                    </div>
-                </div>   
-                <!-- Contact Us | Footer -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footer_blog full white_fonts">
-                        <h5>Contact</h5>
-                            <ul class="full footer_content">
-                                <li><img src="../../img/icons/address_icon.png" alt="Cyber Ops Ltd Address">Cyber Ops Ltd<br />Helena 3, Airport House<br />Purley Way<br />Croydon<br />CR0 0XZ</li>
-                                <li><img src="../../img/icons/email_sealed_icon_fill.png" alt="Cyber Ops Ltd Email Address">info@aicyberops.uk</li>
-                                <li><img src="../../img/icons/landline_icon_fill.png" alt="Vasave Business Solutions Phone Number">+44 20 3488 6800</li>
-                            </ul>
-                    </div>
-                </div>	 
-            </div>
+        <!-- About -->
+        <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+                <li><a href="../../about.html">About Cyber Ops Ltd</a></li>
+                <li><a href="../../services.html">Our Services</a></li>
+                <li><a href="../../about-us/what-we-stand-for.html">What We Stand For</a></li>
+            </ul>
         </div>
-    </footer>
-    <!-- End Footer -->
-    <!-- Start Copyright Content -->
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <span class="crp">© Copyrights 2025 AICyberops</span>
-                    <span class="quick_links">
-                        <a href="../../cookies-policy.pdf" target="_blank" rel="noopener">Cookies Policy</a>
-                        <a href="../../privacy-policy.pdf" target="_blank" rel="noopener">Privacy Policy</a>
-                        <a href="../../index.html" target="_blank" rel="noopener">Terms & Conditions</a>
-                    </span>
-                </div>
-            </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="../../services/cyber-essential.html">Cyber Essentials</a></li>
+                <li><a href="../../services/cyber-essential-plus.html">Cyber Essential Plus</a></li>
+                <li><a href="../../services/cyber-assurance.html">IASME Cyber Assurance</a></li>
+            </ul>
         </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <ul class="contact-list">
+                <li>
+                    <img src="../../img/icons/address_icon.png" alt="">
+                    Cyber Ops Ltd<br>
+                    Helena 3, Airport House<br>
+                    Purley Way<br>
+                    Croydon<br>
+                    CR0 0XZ
+                </li>
+                <li>
+                    <img src="../../img/icons/email_sealed_icon_fill.png" alt="">
+                    info@aicyberops.uk
+                </li>
+                <li>
+                    <img src="../../img/icons/landline_icon_fill.png" alt="">
+                    +44 20 3488 6800
+                </li>
+            </ul>
+        </div>
+
     </div>
+</footer>
+
+<!-- Bottom Copyright -->
+<div class="footer-bottom">
+    <div class="footer-bottom-inner">
+        <span class="footer-copy">© COPYRIGHTS 2025 BY CYBER OPS LTD</span>
+        <span class="footer-links">
+            <a href="../../index.html">Terms & Conditions</a>
+            <a href="../../privacy-policy.pdf" target="_blank">Privacy Policy</a>
+            <a href="../../cookies-policy.pdf" target="_blank">Cookies Policy</a>
+        </span>
+    </div>
+</div>
+
     <!-- End Copyright Content -->
 
     <!-- ALL JS FILES -->
