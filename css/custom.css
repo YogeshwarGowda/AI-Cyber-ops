@@ -1,6 +1,6 @@
 /** ADD YOUR AWESOME CODES HERE **/
 .cert-section {
-  padding: 4.5rem 0;
+  padding: 0rem 0; /*changes made for about page footer alignment*/
   background: #fff;
 }
 .cert-section.alt { background:#f7f9fc; }
